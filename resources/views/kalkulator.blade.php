@@ -55,7 +55,7 @@
                                 <p class="z-des-penghasilan">Zakat harta yang dikeluarkan dari hasil pendapatan seseorang atau profesinya bila telah mencapai nisab</p>
                             </div>
                         </a>
-                    </div> 
+                    </div>
                 </div>
                 <div class="col-sm-5 mt-2">
                     <div class="card-body">
@@ -190,7 +190,7 @@ penghasilan.addEventListener('keyup', function (e) {
     penghasilan.value = formatValue(this.value, '');
     var peng = penghasilan.value.replace(/[.]+/g, '');
 
-    if (peng >= 5240000) {
+    if (peng >= 6644868) {
         var pengPb = ((peng * 2.5) / 100);
         $('#wajibjzakat').attr('value', 'YA');
         $('#peng-pb').attr('value', (accounting.formatNumber(pengPb, "0", ".")));
